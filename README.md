@@ -7,3 +7,5 @@ Updated November 10 2017
 Added max-width: 100% to css .slideshow-content element as well as min-width: 730px.
 
 Version 3 now ready. added dropdown menu November 10 2017
+Works in Chrome great but cross browser still has problems. Slider Element covering text on re-size and in full screen in some browsers..
+
