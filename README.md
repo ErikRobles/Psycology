@@ -11,3 +11,4 @@ Version 3 now ready. added dropdown menu November 10 2017
 Works in Chrome great but cross browser still has problems. Slider Element covering text on re-size and in full screen in some browsers..
 
 11/11/17 Added some webfixes. Helped a little but still cross browser issues. Looks great in Chrome and Opera. The rest are still pushing my slider and menu button down into the content section of the page.
+Version 2 no longer applicable. Useless file. I still need to learn how to delete it. 
