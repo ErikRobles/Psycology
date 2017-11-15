@@ -19,3 +19,4 @@ November 13th 2017
 Renamed main website folder to "Psycoterapia" no longer using earlier versions. New conditional code in css that targets certain elements in the header to make it compatible with Internet Explorer 11. First line of text non-responsive in IE11 but everything else is looking good and responding well in the other browsers. Ready to start designing the other pages. 
 
 November 14th 2017 added "Terapia" page and started working on "Preguntas Frecuentes" page.
+All pages done and uploaded to GitHub. The last problem I am facing is to eliminate the large amounts of white space between the content and the footer except for the index.html page. 
