@@ -22,6 +22,12 @@ p {
 	font-size: 36px;
 }
 
+h2 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+}
+
 h3 {
 	font: 400 24px "Open Sans",sans-serif;
     text-shadow: 0 1px 2px rgba(0,0,0,0.4);
@@ -29,10 +35,32 @@ h3 {
 
 }
 
+h4 {
+    font-size: 19px;
+    color: #1dbde0;
+	font-weight: 700;
+	display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+	line-height: 1.6;
+	font-family: "Open Sans", sans-serif;
+}
+
 h5 {
 	text-align: center;
 	font-size: 36px;
 	text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+	font-weight: 300 "Trebuchet MS",arial;
+    color: #373737;
+}
+
+.address {
+	font: 700 10px "Open Sans";
+    text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+    text-transform: uppercase;
+	text-align: center;
 }
 
 h6 {
@@ -57,6 +85,349 @@ span {
 	color: #000080;
 	font-size: 14px;
 	text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+
+/* ----------------Form styling----------------------*/
+
+.form-label {
+    color: #b0b0b0;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 3px;
+    cursor: default;
+	text-align: left;
+}
+
+.form-req {
+    color: red;
+}
+
+.form .form-row:nth-child(1) .form-value, .form .form-row:nth-child(2) .form-value, .form .form-row:nth-child(3) .form-value {
+    width: 65%;
+}
+
+.form .form-value {
+    border-radius: 7px;
+    border: 0;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    border: 1px solid #d4d4d4;
+}
+
+.form-value {
+    display: block;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    padding: 5px;
+}
+
+button, input {
+    line-height: normal;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+.form .form-value {
+    border-radius: 7px;
+    border: 0;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    border: 1px solid #d4d4d4;
+}
+.form textarea {
+    height: 200px;
+}
+textarea.form-value {
+    resize: none;
+}
+.form-value {
+    display: block;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    padding: 5px;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+textarea {
+    font-family: monospace;
+    border-color: rgb(169, 169, 169);
+}
+textarea {
+    -webkit-appearance: textarea;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    padding: 2px;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    padding: 1px 6px;
+}
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+input[type="button" i], input[type="submit" i], input[type="reset" i] {
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+}
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.form-submit {
+    margin-top: 30px!important;
+}
+.form-submit {
+    background-color: #f5f5f5;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background-image: -webkit-linear-gradient(#f5f5f5,#f8f8f8);
+    background-image: -moz-linear-gradient(#f5f5f5,#f8f8f8);
+    background-image: linear-gradient(#f5f5f5,#f8f8f8);
+    border: 1px solid white;
+    border-radius: 8px;
+    line-height: 32px;
+    padding: 0 9px;
+    color: #c0c0c0;
+    width: auto;
+    height: auto;
+    text-shadow: none;
+    -webkit-box-shadow: 0 1px 3px 1px rgba(0,0,0,0.15);
+    box-shadow: 0 1px 3px 1px rgba(0,0,0,0.15);
+    float: right;
+}
+[class*="button_theme"], .form-submit {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font: 600 12px "Open Sans",sans-serif;
+    padding: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+button, input {
+    line-height: normal;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    padding: 1px 6px;
+}
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+input[type="button" i], input[type="submit" i], input[type="reset" i] {
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+}
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+
+input[type="checkbox" i] {
+    margin: 3px 3px 3px 4px;
+}
+
+input[type="checkbox" i] {
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+}
+
+input[type="radio" i], input[type="checkbox" i] {
+    background-color: initial;
+    margin: 3px 0.5ex;
+    padding: initial;
+    border: initial;
+}
+
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+
+.form-value {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.form {
+margin-left: 20%;
+}
+
+/* --------------End of Form Styling---------------*/
+
+.map-button {
+	display: inline-block;
+    background-color: #42c8f3;
+    padding: 16px;
+	border: solid 1px #42c8f3;
+    border-radius: 15px;
+	margin-top: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
+    cursor: pointer;
+	text-align: center;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	z-index: 5;
+}
+
+.map-button a {
+	text-decoration: none;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	behavior: url("js/PIE.htc");
+	font-size: 16px;
+	font-weight: bold;
+
 }
 
 .question {
@@ -242,6 +613,11 @@ hr {
 	padding-right: 15px;
 	width: 51px;
 	height: 78px;
+}
+
+.map {
+	width: 279px;
+	height: 246.6px;
 }
 
 .container {
