@@ -20,3 +20,8 @@ Renamed main website folder to "Psycoterapia" no longer using earlier versions. 
 
 November 14th 2017 added "Terapia" page and started working on "Preguntas Frecuentes" page.
 All pages done and uploaded to GitHub. The last problem I am facing is to eliminate the large amounts of white space between the content and the footer except for the index.html page. 
+
+============================================== Important Changes ===========================================================
+
+November 15th 2017
+Added code to remove the extra white space in the content pages. Checked IE11 - Opera - Chrome - FireFox. All looking the way I want them too.  Next- PHP for form submission.
