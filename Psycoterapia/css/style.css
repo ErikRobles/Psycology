@@ -677,9 +677,32 @@ hr {
 	margin-top: -100px;
 	padding: 20px;
 	height: 100px;
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
+	width: 97%;
+	text-align: center;
+	background-color: #f4f4f4;
+	-webkit-box-sizing: content-box;
+	        box-sizing: content-box;
+	border-radius: 10px 10px 0 0;
+    	border-top: 1px solid #eee;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    -webkit-box-shadow: inset 0 1px 1px rgba(255,255,255,0.5), 0 1px 3px rgba(0,0,0,0.2);
+	box-shadow: inset 0 1px 1px rgba(255,255,255,0.5), 0 1px 3px rgba(0,0,0,0.2);
+	clear: both;
+}
+
+.col {
+	padding: 0 15px 5px 15px;
+	margin-bottom: 50px;
+	text-align: center;
+	behavior: url("js/PIE.htc");
+}
+
+#footer-c {
+	position: relative;
+	margin-top: -500px;
+	padding: 20px;
+	height: 100px;
+	width: 97%;
 	text-align: center;
 	background-color: #f4f4f4;
 	-webkit-box-sizing: content-box;
@@ -732,8 +755,11 @@ hr {
 }
 
 /*-----------------Media Queries--------------*/
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-/* IE10+ CSS styles go here */
+       /* IE10+ CSS styles go here */
+
+
 .headerImage {
 	position: relative;
 	left:20%
@@ -751,6 +777,7 @@ hr {
 }
 
 /* Dropdown Button */
+
 .dropbtn {
 	position: absolute !important;
 	display: inline-block;
@@ -767,6 +794,7 @@ hr {
   }
 
 /* Dropdown button on hover & focus */
+
 .dropbtn:hover, .dropbtn:focus {
     background-color: #42c8f3;
 	border: solid 1px #42c8f3;
@@ -774,6 +802,7 @@ hr {
 }
 
 /* The container <div> - needed to position the dropdown content */
+
 .dropdown {
     position: absolute !important;
 	float: left;
@@ -786,6 +815,7 @@ hr {
 }
 
 /* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -801,6 +831,7 @@ hr {
 }
 
 /* Links inside the dropdown */
+
 .dropdown-content a {
     color: white;
 	font-family: "Open Sans", sans-serif;
@@ -813,11 +844,13 @@ hr {
 }
 
 /* Change color of dropdown links on hover */
+
 .dropdown-content a:hover {
 	background-color: #1f9ac1;
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
 .show {display:block;}
 
 ul {
@@ -826,6 +859,7 @@ ul {
 }
 
 /* Slideshow container */
+
 .slideshow-container {
 	position: absolute !important;
 	top: 12%;
@@ -855,12 +889,12 @@ ul {
 	min-height: 100%;
 	position:relative;
 	background: white;
-	margin-left: 1%;
-	margin-right: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
 	margin-bottom: 50px;
 	top: -485px;
 	text-align: left;
-	width: 100%;
+	width: 90%;
 	min-width: 400px;
 }
 
@@ -877,7 +911,7 @@ ul {
 }
 
 #footer {
-	width: 90%;
+	width: 95%;
 	text-align: left;
 	margin-left: 1%;
 }
@@ -888,6 +922,35 @@ ul {
 	margin-left: 10px;
 	width: 51px;
 	height: 78px;
+}
+
+h5 {
+	font-size: 24px;
+}
+
+@media (max-width: 768px) {
+	.item {
+		float: none;
+		text-align: center;
+		width: 300px;
+		margin-left: 20px;
+	}
+
+}
+
+@media (max-width: 1105px) {
+	.item {
+		float: left;
+		text-align: center;
+		padding-left: 30px;
+		width: 50%;
+		margin-left: 20%;
+		padding: 20px;
+		behavior: url("js/PIE.htc");
+	}
+	.terapias {
+		padding-left: 120px;
+		}
 }
 
 }
@@ -914,6 +977,33 @@ ul {
 	.terapias {
 		padding-left: 120px;
 		}
+}
+
+@-moz-document url-prefix() {
+	.container2 {
+    	min-height: 100%;
+    	position:relative;
+    	background: white;
+    	margin-left: 5%;
+    	margin-right: 5%;
+    	margin-bottom: 50px;
+    	top: -385px;
+    	text-align: left;
+    	width: 90%;
+    	min-width: 400px;
+    }
+
+	.bar {
+		position: absolute;
+		display: none;
+		width: 1000px;
+		height: 20px;
+		top: 20%;
+		border-top: 6px solid 	#e5e5e5;
+		opacity: 1;
+		filter: alpha(opacity=1);
+		text-align: left;
+	}
 }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
