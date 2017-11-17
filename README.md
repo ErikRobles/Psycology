@@ -25,3 +25,6 @@ All pages done and uploaded to GitHub. The last problem I am facing is to elimin
 
 November 15th 2017
 Added code to remove the extra white space in the content pages. Checked IE11 - Opera - Chrome - FireFox. All looking the way I want them too.  Next- PHP for form submission.
+
+November 17 2017 
+Modified PHP and ran tests to see the functionality of the contact form. So far so good. Need to go live to really test the php.mail file. Need to verify receipt of sent data. 
