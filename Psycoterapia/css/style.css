@@ -1,4 +1,4 @@
-@import 'normalize.css';
+﻿@import 'normalize.css';
 @charset "UTF-8";
 
 _:-ms-fullscreen, :root .ie11up {}
@@ -448,6 +448,10 @@ margin-left: 20%;
 	margin-bottom: 40px;
 	margin-top: -15px;
 	min-height: 425px;
+}
+
+#wrapper {
+width: 100%;
 }
 
 
