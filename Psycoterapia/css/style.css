@@ -442,11 +442,14 @@ margin-left: 20%;
 }
 
 .headerImage {
+	height: 100%;
+	width: 100%;
 	position: relative;
 	margin-bottom: 40px;
 	margin-top: -15px;
 	min-height: 425px;
 }
+
 
 .logoImage {
 	position: absolute;
