@@ -1,0 +1,23 @@
+/*=========FlexBox=============================================================================================================*/
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.item {
+	flex: 1 100px;
+}
+
+.firstLineText {
+	display: flex;
+	flex-direction: row;
+}
+
+	.firstLine {
+		flex: 1 700px;
+		justify-content: space-around;
+	}
+}
