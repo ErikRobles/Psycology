@@ -442,24 +442,29 @@ margin-left: 20%;
 }
 
 .headerImage {
-	height: 100%;
+	height: auto;
 	width: 100%;
 	position: relative;
 	margin-bottom: 40px;
 	margin-top: -15px;
 	min-height: 425px;
+	text-align: center;
 }
 
 #wrapper {
 width: 100%;
 }
 
+.navbar {
+	background-color: rgb(16,120,191);
+	height: 125px;
+}
 
 .logoImage {
 	position: absolute;
 	display: inline-block;
-	left: 2%;
-	padding: 5px;
+	left: 4%;
+	padding: 15px;
 	z-index: 1;
 }
 
@@ -610,7 +615,10 @@ hr {
     border-radius: 10px;
     box-shadow: 0 1px 5px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+}
 
+.terapauta {
+	width: 30%;
 }
 
 .number {
@@ -632,6 +640,7 @@ hr {
 	text-align: center;
 	margin: 0;
 	width: 100%;
+	padding-bottom: 5%;
 }
 
 .container2 {
@@ -650,7 +659,7 @@ hr {
 
 #main {
 	overflow: auto;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	text-align: center;
 	margin-top:20px;
 }
@@ -672,8 +681,8 @@ hr {
 }
 
 .firstLine {
-   	margin-top: 25px;
-   	padding-top: 10px;
+   	margin-top: 15px;
+		padding-bottom: 30px;
 	display: inline;
 	text-align: center;
 	width: 60%;
@@ -727,7 +736,7 @@ hr {
 	color: #000000;
 	font-size: 12px;
 	font-weight: bold;
-	margin-left: 2%;
+	margin-left: 5%;
 	margin-top: 10px;
 	margin-bottom: 0;
 }
@@ -767,6 +776,122 @@ textarea {
 }
 
 /*-----------------Media Queries--------------*/
+
+@media (max-width:499px){
+
+	body {
+		min-width: 100%;
+	}
+	.slideshow-container {
+		display: none;
+		}
+
+		.navbar {
+			height: 100px;
+			display: block;
+		}
+				.headerImage {
+			display: none;
+		}
+		.logoImage {
+			max-width: 55%;
+			padding-right: 0;
+		}
+		.dropdown {
+			margin-left: -50px;
+		}
+
+		.firstLineText {
+			text-align: center;
+			margin-left: 30px;
+			margin-right: 100px;
+			margin-top: -80px;
+		}
+		h5 {
+			font-size: 24px;
+			margin-right: 50px;
+			padding-bottom: 15px;
+		}
+		p{
+			font-size: 18px;
+			margin-left: 40px;
+			margin-right: 100px;
+			margin-bottom: -80px;
+		}
+
+		.smallBottomImages {
+			margin-right: 50px;
+		}
+
+		.container {
+			padding-bottom: 80px;
+		}
+
+		span {
+			text-align: left;
+		}
+
+		.map {
+			margin-left: -50px;
+		}
+
+		.footer-txt {
+			margin-left: -40px;
+			padding-top: 80px;
+			position: absolute;
+			bottom: 20%;
+		}
+
+		#footer {
+			position: fixed;
+			bottom: 0;
+			padding-top: 10px;
+			max-height: 70px;
+		}
+
+		#footer-c {
+			width: 100%;
+			margin: 0%;
+			position: fixed;
+			bottom: 0%;
+			margin-top: 180px;
+		}
+
+		#footer-c .footer-txt {
+			padding-top: 100px;
+			position: absolute;
+			bottom: 20%;
+		}
+
+		.social-buttons {
+			padding-right: 2px;
+			padding-top: 15px;
+		}
+
+#main {
+	position: absolute;
+	top: 370px;
+	margin-bottom: 100px;
+	z-index: 0;
+}
+.container2 {
+	margin-top:  25%;
+	margin-bottom: 80px;
+	left: -10%;
+
+}
+.terapias-txt {
+	margin: auto;
+}
+
+.answer {
+	margin: auto;
+}
+
+
+	}
+
+
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
        /* IE10+ CSS styles go here */
@@ -963,6 +1088,7 @@ h5 {
 	.terapias {
 		padding-left: 120px;
 		}
+
 }
 
 }
@@ -990,6 +1116,8 @@ h5 {
 		padding-left: 120px;
 		}
 }
+
+
 
 @-moz-document url-prefix() {
 	.container2 {
