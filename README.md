@@ -28,3 +28,10 @@ Added code to remove the extra white space in the content pages. Checked IE11 - 
 
 November 17 2017 
 Modified PHP and ran tests to see the functionality of the contact form. So far so good. Need to go live to really test the php.mail file. Need to verify receipt of sent data. 
+
+
+============================================Important Changes ==================================================================
+
+Made more media queries to hone in on the responsive aspect of mobile view. I had a lot of problems with the header and in the end, decided to remove the header image and the js slider that is in the desktop version. I also struggled with the footer hiding content. I was finally able to remedy this with some container margin-bottom rules. This is the final run before I go live.  November 28 2017
+
+====================================================================================================================================
