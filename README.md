@@ -1,6 +1,10 @@
 # Psycology
 Website for psycologist
 Need help.
+The site is now live as of Novmber 30th 2017. www.psicoterapiaviajeinterior.com 
+- See the development history below. I am still in need of php mail form development as the form still does not end up in the data base. 
+
+
 ==============Development history.=====================================
 Looks great in full screen but when getting close to mobile size, mediaquery won't kick in. Thanks in advance.
 
