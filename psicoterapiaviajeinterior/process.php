@@ -22,8 +22,8 @@ $email_address = 'psicoterapiaviajeinterior@gmail.com';
 $subject = 'De la página Web psicoterapia';
 $table = 'mail';
 define('DB_NAME', 'psicoter_contactform');
-define('DB_USERNAME', 'psicoter_erik');
-define('DB_PASSWORD', 'Star0101*');
+define('DB_USERNAME', '************');
+define('DB_PASSWORD', '********');
 define('DB_HOST', 'localhost');
 
 
