@@ -1,6 +1,9 @@
 # Psycology
 Website for psycologist
-Need help.
+Removed the "need help" text. The site is now live and the contact form and mail.php are finally working the way they should. Please see the working folder titled "psicoterapiaviajeinterior" to find the exact files used to create the live site. All notes following these comments represent the history of this project since its inception. Thank you to those who offered me assistance along the way. 
+================================================================================================================================
+History of the project.
+
 The site is now live as of Novmber 30th 2017. www.psicoterapiaviajeinterior.com 
 Added Folder to project containing all live files. Name: psicoterapiaviajeinterior Dec 4 2017
 - See the development history below. I am still in need of php mail form development as the form still does not end up in the data base. 
