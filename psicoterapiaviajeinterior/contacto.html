@@ -28,6 +28,7 @@
 
 </head>
 <body>
+	<div class="one-col-layout">
 	<div class="navbar">
 		<div class="logowrapper">
 		<img class="logoImage" src="http://res.cloudinary.com/erikrobles/image/upload/v1510190612/headerLogo_imoe6a.png" style="width: 300px;"  alt="psicoterápia">
@@ -68,7 +69,7 @@
 			<div class="map-button"><a href="https://www.google.com.mx/maps/place/Calle+Ote.+164+406,+Moctezuma+2da+Secc,+15530+Ciudad+de+M%C3%A9xico,+CDMX/@19.4387478,-99.0953315,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1fbf900ca893d:0x7c9981bf47f4fe06!8m2!3d19.4387428!4d-99.0931428?hl=en">Ver Mapa</a></div>
 			</div>
 		<div class="col-3 col">
-			<h3>ESTAMOS PARA AYUDARTE</h3>
+			<h3>ESTOY PARA AYUDARTE</h3>
 			<h4>PREVIA CITA</h4>
 			<h2>
 			<strong><span style="font-size: 20px; font-weight: normal;">CONSULTORIO :  5785 5219</span></strong>
@@ -82,9 +83,8 @@
 
 	<div class="form">
 		<div class="form-body">
-  		<form action="process.php" method="post">
-    		<h3>Contacto Rápido</h3>
-    		<h4>¡Contactanos y respondaremos pronto!</h4>
+  		<form action="mail.php" method="post">
+    		<h4 class="contact-header">CONTACTO</h4>
 			<div class="form-row">
 			<label class="form-label">Nombre: <span class="form-req">*</span></label>
     				<input placeholder="Nombre" type="text" name="name" class="form-value" tabindex="1" required autofocus>
@@ -145,5 +145,6 @@
 		<!-- AddToAny END -->
 		</div>
 		</footer>
+	</div><!--end one-col-layout div-->
 </body>
 </html>
